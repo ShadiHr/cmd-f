@@ -6,6 +6,7 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
 
     for (i=0; i < Sources.length; i++) {
         foundApproved = title.includes(Sources[i])
+        if (foundApproved) break;
     }
 
 if (foundApproved) {
