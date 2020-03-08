@@ -7,7 +7,7 @@
     "description" : "This extension will provide the user with information relating to the validity, possible biases, and reputability of the source they visit.",
     "manifest_version" : 2, 
     
-    "permision" : [
+    "permissions" : [
         "activeTab"
     ], 
     "background" : {
