@@ -21,7 +21,7 @@
 
         "default_popup" : "notapprovedpopup.html"
 
-        "default_popup" : "notapprovedpopup.html"
+
 
     },
     "content_scripts" : [
