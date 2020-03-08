@@ -14,7 +14,7 @@
     }, 
     "browser_action" : {
         "default_title" : "thirdeye",
-        "default_popup" : "popup.html"
+        "default_popup" : "approvedpopup.html"
     },
     "content_scripts" : [
         {
