@@ -3,11 +3,15 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
 
 if (url.includes('facebook')) {
     document.getElementById("not-approved").style.display = 'block'
-} else if (url.includes('webmd')) {
-    document.getElementById("approved").style.display = 'block'
-}})
-
-document.getElementById("user-confirmation").onclick = function()
+    document.getElementById("not-approved-acknowledged").onclick = function()
 {
     window.close();
 }
+} else if (url.includes('webmd')) {
+    document.getElementById("approved").style.display = 'block'
+    document.getElementById("approved-acknowledged").onclick = function()
+{
+    window.close();
+}
+}})
+
