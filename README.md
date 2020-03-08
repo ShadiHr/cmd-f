@@ -1,3 +1,3 @@
 # **cmd-f Hackathon** 
 
-This Google Chrome extension is meant to increase _transparency_ in sharing of information concenring health and medicine. We aim provide our fellow googlers with the means to easily navigate the search results page and get their information from _reputable sources_.
+The aim of our project is to help users distinguish between reliable and unreliable sources of medical information using a simple chrome extension that alerts the user about whether the source can be trusted. We hope our extension could potentially mitigate the negative effects of misinformation found on on the user's health. 
