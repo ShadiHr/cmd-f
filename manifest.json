@@ -1,8 +1,12 @@
 { 
     "name" : "thirdeye",
     "version" : "0.0.1",
+    "icons" : {
+        "128": "eye_watch.png"
+    },
     "description" : "This extension will provide the user with information relating to the validity, possible biases, and reputability of the source they visit.",
     "manifest_version" : 2, 
+    
     "permision" : [
         "activeTab"
     ], 
@@ -14,7 +18,11 @@
     }, 
     "browser_action" : {
         "default_title" : "thirdeye",
-        "default_popup" : "approvedpopup.html"
+
+        "default_popup" : "notapprovedpopup.html"
+
+        "default_popup" : "notapprovedpopup.html"
+
     },
     "content_scripts" : [
         {
